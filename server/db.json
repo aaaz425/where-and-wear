@@ -1,51 +1,140 @@
 {
   "dateSpot": {
     "district": {
-      "nowon": [
-        {
-          "category": "restaurant",
-          "name": "OO식당",
-          "address": "주소",
-          "img": "이미지소스(상대경로)",
-          "detail": "한식, 고기",
-          "info": "간단설명"
-        },
-        {
-          "category": "restaurant",
-          "name": "OO식당",
-          "address": "주소",
-          "img": "이미지소스",
-          "detail": "양식, 파스타",
-          "info": "간단설명"
-        },
-        {
-          "category": "cafe",
-          "name": "OO카페",
-          "address": "주소",
-          "img": "이미지소스",
-          "detail": "라쿤 카페",
-          "info": "간단설명"
-        }
-      ],
-
-      "gangnam": [
-        {
-          "category": "cafe",
-          "name": "OO카페",
-          "address": "주소",
-          "img": "이미지소스",
-          "detail": "음료 카페",
-          "info": "간단설명"
-        },
-        {
-          "category": "activity",
-          "name": "OO공방",
-          "address": "주소",
-          "img": "이미지소스",
-          "detail": "반지 만들기",
-          "info": "간단설명"
-        }
-      ]
+      "yongsan": {
+        "restaurant": [
+          {
+            "name": "몽탄",
+            "address": "서울 용산구 백범로99길 50",
+            "img": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190118_58%2F1547774525170WiHRr_JPEG%2FLQR4NdfTZrK-FNfGCrcUVhVn.jpg",
+            "detail": "한식, 고기",
+            "info": "가장 한국적인 맛이, 가장 세계적인 맛 몽탄의 우대 갈비"
+          },
+          {
+            "name": "미미옥",
+            "address": "서울 용산구 한강대로15길 27",
+            "img": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230417_204%2F1681696543373AYulj_JPEG%2FDSC01465_.JPG",
+            "detail": "한식, 국수",
+            "info": "용산역 맛집 미미옥에서 푸짐한 한국식 쌀국수"
+          },
+          {
+            "name": "케르반 레스토랑",
+            "address": "서울 용산구 이태원로 192 1층",
+            "img": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190526_273%2F1558858497968EKMn1_JPEG%2Fkervan_%252820%2529.JPG",
+            "detail": "터키, 케밥, 카이막",
+            "info": "테이스티로드에 나온 이태원 터키 음식점"
+          },
+          {
+            "name": "참새집 한남본점",
+            "address": "서울 용산구 대사관로30길 21 1층 참새집",
+            "img": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230213_5%2F1676266508536mnxFK_JPEG%2F%25C2%25FC%25BB%25F5%25C1%25FD-%25BF%25DC%25B0%25FC%25BB%25E7%25C1%25F8.jpg",
+            "detail": "이자카야, 빌리지 펍",
+            "info": "프라이빗한 분위기의 빌리지 펍에서 술 한잔"
+          },
+          {
+            "name": "오스테리아 오르조",
+            "address": "서울 용산구 한남대로20길 47",
+            "img": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220120_84%2F1642643914718AhhLQ_JPEG%2F21306F5A-00BE-4244-AFC3-8CA8E44FABAC.jpeg",
+            "detail": "양식, 파스타",
+            "info": "미쉐린 가이드 서울 2023"
+          },
+          {
+            "name": "오스테리아 오르조",
+            "address": "서울 용산구 한남대로20길 47",
+            "img": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220120_84%2F1642643914718AhhLQ_JPEG%2F21306F5A-00BE-4244-AFC3-8CA8E44FABAC.jpeg",
+            "detail": "양식, 파스타",
+            "info": "미쉐린 가이드 서울 2023"
+          }
+        ],
+        "cafe": [
+          {
+            "name": "호우주의보",
+            "address": "서울 용산구 소월로40길 85 1-2층",
+            "img": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA0MjhfMTYx%2FMDAxNjgyNjY5MzM0Mzgx.PBHS_H_j_p2xFgGSpv-xowW17Hw4sptACZSN62J8A3wg.fEGTm-ibKLgx-YZuUMdJYN4LVfKGBU2k_Ntp6BcyT54g.JPEG.jeonyoonso%2FR0012861.JPG",
+            "detail": "카페, 디저트",
+            "info": "인스타 핫플레이스"
+          },
+          {
+            "name": "포컬포인트",
+            "address": "서울 용산구 청파로 387",
+            "img": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230328_190%2F1679987214903nwRk1_JPEG%2F230326_point-51.jpg",
+            "detail": "카페, 디저트",
+            "info": "서울역 넘버 원 카페"
+          },
+          {
+            "name": "도토리",
+            "address": "서울 용산구 한강대로52길 25-6 1층",
+            "img": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221114_215%2F1668435094849Trk11_JPEG%2FKakaoTalk_20221114_231108362.jpg",
+            "detail": "카페, 그릭 요거트",
+            "info": "동화에서 나온 듯한 그릭 요거트 전문점"
+          },
+          {
+            "name": "호우주의보",
+            "address": "서울 용산구 소월로40길 85 1-2층",
+            "img": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA0MjhfMTYx%2FMDAxNjgyNjY5MzM0Mzgx.PBHS_H_j_p2xFgGSpv-xowW17Hw4sptACZSN62J8A3wg.fEGTm-ibKLgx-YZuUMdJYN4LVfKGBU2k_Ntp6BcyT54g.JPEG.jeonyoonso%2FR0012861.JPG",
+            "detail": "카페, 디저트",
+            "info": "인스타 핫플레이스"
+          },
+          {
+            "name": "포컬포인트",
+            "address": "서울 용산구 청파로 387",
+            "img": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230328_190%2F1679987214903nwRk1_JPEG%2F230326_point-51.jpg",
+            "detail": "카페, 디저트",
+            "info": "서울역 넘버 원 카페"
+          },
+          {
+            "name": "도토리",
+            "address": "서울 용산구 한강대로52길 25-6 1층",
+            "img": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221114_215%2F1668435094849Trk11_JPEG%2FKakaoTalk_20221114_231108362.jpg",
+            "detail": "카페, 그릭 요거트",
+            "info": "동화에서 나온 듯한 그릭 요거트 전문점"
+          }
+        ],
+        "activity": [
+          {
+            "name": "국립중앙박물관",
+            "address": "서울 용산구 서빙고로 137 국립중앙박물관",
+            "img": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20140407_23%2F1396854287055nq72U_JPEG%2F%25BC%25AD%25BF%25EF_%25B1%25B9%25B8%25B3%25C1%25DF%25BE%25D3%25B9%25DA%25B9%25B0%25B0%25FC_28.jpg%3Ftype%3Dm500_500",
+            "detail": "박물관",
+            "info": "대한민국 간판 박물관"
+          },
+          {
+            "name": "이촌 한강공원",
+            "address": "서울 용산구 이촌로72길 62 한강공원 이촌안내센터",
+            "img": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzAzMTlfMzYg%2FMDAxNjc5MjI5NTAwMDAz.nybVW2U8nEyf2LMKqImzJb6WbKUgLFBxpZ3PvQtvGmwg.EWdF6WjA_IDZBUAwdQP9S_10lksFC-arD6kqS-Ilue4g.JPEG.l2lmrfox%2FKakaoTalk_20230317_220557873_16.jpg",
+            "detail": "한강공원",
+            "info": "한강공원에서 만나요"
+          },
+          {
+            "name": "N서울타워",
+            "address": "서울 용산구 남산공원길 105",
+            "img": "https://search.pstatic.net/common/?src=https%3A%2F%2Fnaverbooking-phinf.pstatic.net%2F20230425_222%2F1682394493932XLuGv_JPEG%2FCK_tc00330000030.jpg",
+            "detail": "전망대",
+            "info": "연인과 함께 서울 구경"
+          },
+          {
+            "name": "국립중앙박물관",
+            "address": "서울 용산구 서빙고로 137 국립중앙박물관",
+            "img": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20140407_23%2F1396854287055nq72U_JPEG%2F%25BC%25AD%25BF%25EF_%25B1%25B9%25B8%25B3%25C1%25DF%25BE%25D3%25B9%25DA%25B9%25B0%25B0%25FC_28.jpg%3Ftype%3Dm500_500",
+            "detail": "박물관",
+            "info": "대한민국 간판 박물관"
+          },
+          {
+            "name": "이촌 한강공원",
+            "address": "서울 용산구 이촌로72길 62 한강공원 이촌안내센터",
+            "img": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzAzMTlfMzYg%2FMDAxNjc5MjI5NTAwMDAz.nybVW2U8nEyf2LMKqImzJb6WbKUgLFBxpZ3PvQtvGmwg.EWdF6WjA_IDZBUAwdQP9S_10lksFC-arD6kqS-Ilue4g.JPEG.l2lmrfox%2FKakaoTalk_20230317_220557873_16.jpg",
+            "detail": "한강공원",
+            "info": "한강공원에서 만나요"
+          },
+          {
+            "name": "N서울타워",
+            "address": "서울 용산구 남산공원길 105",
+            "img": "https://search.pstatic.net/common/?src=https%3A%2F%2Fnaverbooking-phinf.pstatic.net%2F20230425_222%2F1682394493932XLuGv_JPEG%2FCK_tc00330000030.jpg",
+            "detail": "전망대",
+            "info": "연인과 함께 서울 구경"
+          }
+        ]
+      }
     }
   },
 
@@ -72,8 +161,26 @@
             "img": "이미지소스"
           }
         ],
-        "step3": [],
-        "step4": [],
+        "step3": [
+          {
+            "detail": "맨투맨",
+            "img": "이미지소스"
+          },
+          {
+            "detail": "후드티",
+            "img": "이미지소스"
+          }
+        ],
+        "step4": [
+          {
+            "detail": "스트라이프 긴팔 티셔츠",
+            "img": "이미지소스"
+          },
+          {
+            "detail": "얇은 셔츠",
+            "img": "이미지소스"
+          }
+        ],
         "step5": [
           {
             "detail": "흰 반팔",
@@ -86,20 +193,171 @@
         ]
       },
 
-      "bottom": {},
+      "bottom": {
+        "step1": [
+          {
+            "detail": "두꺼운 청바지",
+            "img": "이미지소스"
+          },
+          {
+            "detail": "기모 슬랙스",
+            "img": "이미지소스"
+          }
+        ],
+        "step2": [
+          {
+            "detail": "두꺼운 청바지",
+            "img": "이미지소스"
+          },
+          {
+            "detail": "골덴 바지",
+            "img": "이미지소스"
+          }
+        ],
+        "step3": [
+          {
+            "detail": "얇은 청바지",
+            "img": "이미지소스"
+          },
+          {
+            "detail": "트레이닝 바지",
+            "img": "이미지소스"
+          }
+        ],
+        "step4": [
+          {
+            "detail": "얇은 청바지",
+            "img": "이미지소스"
+          },
+          {
+            "detail": "얇은 슬랙스",
+            "img": "이미지소스"
+          }
+        ],
+        "step5": [
+          {
+            "detail": "반바지",
+            "img": "이미지소스"
+          },
+          {
+            "detail": "얇은 린넨 바지",
+            "img": "이미지소스"
+          }
+        ]
+      },
 
-      "jacket": {},
+      "jacket": {
+        "step1": [
+          {
+            "detail": "두꺼운 코트",
+            "img": "../src/asset/dress/jacket/coat.png"
+          },
+          {
+            "detail": "패딩",
+            "img": "../src/asset/dress/jacket/padding.png"
+          }
+        ],
+        "step2": [
+          {
+            "detail": "야상",
+            "img": "../src/asset/dress/jacket/military-jumper.png"
+          },
+          {
+            "detail": "항공 점퍼",
+            "img": "../src/asset/dress/jacket/flight-jacket.png"
+          }
+        ],
+        "step3": [
+          {
+            "detail": "얇은 가디건",
+            "img": "../src/asset/dress/jacket/cardigan.png"
+          },
+          {
+            "detail": "청자켓",
+            "img": "../src/asset/dress/jacket/denim-jacket.png"
+          }
+        ],
+        "step4": [
+          {
+            "detail": "얇은 가디건",
+            "img": "../src/asset/dress/jacket/cardigan.png"
+          },
+          {
+            "detail": "얇은 자켓",
+            "img": "../src/asset/dress/jacket/thin-jacket.png"
+          }
+        ]
+      },
 
-      "shoes": {},
+      "shoes": {
+        "step1": [
+          {
+            "detail": "부츠",
+            "img": "../src/asset/dress/shoes/boots.png"
+          },
+          {
+            "detail": "어글리슈즈",
+            "img": "../src/asset/dress/shoes/ugly-shoes.png"
+          }
+        ],
+        "step2": [
+          {
+            "detail": "로퍼",
+            "img": "../src/asset/dress/shoes/loafer.png"
+          },
+          {
+            "detail": "어글리슈즈",
+            "img": "../src/asset/dress/shoes/ugly-shoes.png"
+          }
+        ],
+        "step3": [
+          {
+            "detail": "컨버스화",
+            "img": "../src/asset/dress/shoes/converse.png"
+          },
+          {
+            "detail": "화이트 스니커즈",
+            "img": "../src/asset/dress/shoes/white-sneakers.png"
+          }
+        ],
+        "step4": [
+          {
+            "detail": "컨버스화",
+            "img": "../src/asset/dress/shoes/converse.png"
+          },
+          {
+            "detail": "반스",
+            "img": "../src/asset/dress/shoes/blue-vans.png"
+          }
+        ],
+        "step5": [
+          {
+            "detail": "슬리퍼",
+            "img": "../src/asset/dress/shoes/slipper.png"
+          },
+          {
+            "detail": "반스",
+            "img": "../src/asset/dress/shoes/blue-vans.png"
+          }
+        ]
+      },
 
       "accessory": [
         {
           "detail": "메신저백",
-          "img": "이미지소스"
+          "img": "../src/asset/dress/accessory/messanger-bag.png"
         },
         {
           "detail": "백팩",
-          "img": "이미지소스"
+          "img": "../src/asset/dress/accessory/back-pack.png"
+        },
+        {
+          "detail": "시계",
+          "img": "../src/asset/dress/accessory/watch.png"
+        },
+        {
+          "detail": "뿔테안경",
+          "img": "../src/asset/dress/accessory/glasses.png"
         }
       ]
     },

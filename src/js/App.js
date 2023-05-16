@@ -1,6 +1,6 @@
-import { Component } from "./core/Component.js";
+import { ViewComponent } from './core/ViewComponent.js';
 
-export class App extends Component {
+export class App extends ViewComponent {
   getTemplate() {
     return `
       <header class="header"></header>

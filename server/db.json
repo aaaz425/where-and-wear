@@ -250,41 +250,41 @@
         "step1": [
           {
             "detail": "두꺼운 코트",
-            "img": "../src/asset/jacket/coat.png"
+            "img": "../src/asset/dress/jacket/coat.png"
           },
           {
             "detail": "패딩",
-            "img": "../src/asset/jacket/padding.png"
+            "img": "../src/asset/dress/jacket/padding.png"
           }
         ],
         "step2": [
           {
             "detail": "야상",
-            "img": "../src/asset/jacket/military-jumper.png"
+            "img": "../src/asset/dress/jacket/military-jumper.png"
           },
           {
             "detail": "항공 점퍼",
-            "img": "../src/asset/jacket/flight-jacket.png"
+            "img": "../src/asset/dress/jacket/flight-jacket.png"
           }
         ],
         "step3": [
           {
             "detail": "얇은 가디건",
-            "img": "../src/asset/jacket/cardigan.png"
+            "img": "../src/asset/dress/jacket/cardigan.png"
           },
           {
             "detail": "청자켓",
-            "img": "../src/asset/jacket/denim-jacket.png"
+            "img": "../src/asset/dress/jacket/denim-jacket.png"
           }
         ],
         "step4": [
           {
             "detail": "얇은 가디건",
-            "img": "../src/asset/jacket/cardigan.png"
+            "img": "../src/asset/dress/jacket/cardigan.png"
           },
           {
             "detail": "얇은 자켓",
-            "img": "../src/asset/jacket/thin-jacket.png"
+            "img": "../src/asset/dress/jacket/thin-jacket.png"
           }
         ]
       },
@@ -293,51 +293,51 @@
         "step1": [
           {
             "detail": "부츠",
-            "img": "../src/asset/shoes/boots.png"
+            "img": "../src/asset/dress/shoes/boots.png"
           },
           {
             "detail": "어글리슈즈",
-            "img": "../src/asset/shoes/ugly-shoes.png"
+            "img": "../src/asset/dress/shoes/ugly-shoes.png"
           }
         ],
         "step2": [
           {
             "detail": "로퍼",
-            "img": "../src/asset/shoes/loafer.png"
+            "img": "../src/asset/dress/shoes/loafer.png"
           },
           {
             "detail": "어글리슈즈",
-            "img": "../src/asset/shoes/ugly-shoes.png"
+            "img": "../src/asset/dress/shoes/ugly-shoes.png"
           }
         ],
         "step3": [
           {
             "detail": "컨버스화",
-            "img": "../src/asset/shoes/converse.png"
+            "img": "../src/asset/dress/shoes/converse.png"
           },
           {
             "detail": "화이트 스니커즈",
-            "img": "../src/asset/shoes/white-sneakers.png"
+            "img": "../src/asset/dress/shoes/white-sneakers.png"
           }
         ],
         "step4": [
           {
             "detail": "컨버스화",
-            "img": "../src/asset/shoes/converse.png"
+            "img": "../src/asset/dress/shoes/converse.png"
           },
           {
             "detail": "반스",
-            "img": "../src/asset/shoes/blue-vans.png"
+            "img": "../src/asset/dress/shoes/blue-vans.png"
           }
         ],
         "step5": [
           {
             "detail": "슬리퍼",
-            "img": "../src/asset/shoes/slipper.png"
+            "img": "../src/asset/dress/shoes/slipper.png"
           },
           {
             "detail": "반스",
-            "img": "../src/asset/shoes/blue-vans.png"
+            "img": "../src/asset/dress/shoes/blue-vans.png"
           }
         ]
       },
@@ -345,19 +345,19 @@
       "accessory": [
         {
           "detail": "메신저백",
-          "img": "../src/asset/accessory/messanger-bag.png"
+          "img": "../src/asset/dress/accessory/messanger-bag.png"
         },
         {
           "detail": "백팩",
-          "img": "../src/asset/accessory/back-pack.png"
+          "img": "../src/asset/dress/accessory/back-pack.png"
         },
         {
           "detail": "시계",
-          "img": "../src/asset/accessory/watch.png"
+          "img": "../src/asset/dress/accessory/watch.png"
         },
         {
           "detail": "뿔테안경",
-          "img": "../src/asset/accessory/glasses.png"
+          "img": "../src/asset/dress/accessory/glasses.png"
         }
       ]
     },

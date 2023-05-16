@@ -1,0 +1,125 @@
+{
+  "dateSpot": {
+    "district": {
+      "nowon": [
+        {
+          "category": "restaurant",
+          "name": "OO식당",
+          "address": "주소",
+          "img": "이미지소스(상대경로)",
+          "detail": "한식, 고기",
+          "info": "간단설명"
+        },
+        {
+          "category": "restaurant",
+          "name": "OO식당",
+          "address": "주소",
+          "img": "이미지소스",
+          "detail": "양식, 파스타",
+          "info": "간단설명"
+        },
+        {
+          "category": "cafe",
+          "name": "OO카페",
+          "address": "주소",
+          "img": "이미지소스",
+          "detail": "라쿤 카페",
+          "info": "간단설명"
+        }
+      ],
+
+      "gangnam": [
+        {
+          "category": "cafe",
+          "name": "OO카페",
+          "address": "주소",
+          "img": "이미지소스",
+          "detail": "음료 카페",
+          "info": "간단설명"
+        },
+        {
+          "category": "activity",
+          "name": "OO공방",
+          "address": "주소",
+          "img": "이미지소스",
+          "detail": "반지 만들기",
+          "info": "간단설명"
+        }
+      ]
+    }
+  },
+
+  "clothes": {
+    "male": {
+      "top": {
+        "step1": [
+          {
+            "detail": "라운드 니트",
+            "img": "이미지소스"
+          },
+          {
+            "detail": "터틀넥 니트",
+            "img": "이미지소스"
+          }
+        ],
+        "step2": [
+          {
+            "detail": "라운드 니트",
+            "img": "이미지소스"
+          },
+          {
+            "detail": "맨투맨",
+            "img": "이미지소스"
+          }
+        ],
+        "step3": [],
+        "step4": [],
+        "step5": [
+          {
+            "detail": "흰 반팔",
+            "img": "이미지소스"
+          },
+          {
+            "detail": "검정 반팔",
+            "img": "이미지소스"
+          }
+        ]
+      },
+
+      "bottom": {},
+
+      "jacket": {},
+
+      "shoes": {},
+
+      "accessory": [
+        {
+          "detail": "메신저백",
+          "img": "이미지소스"
+        },
+        {
+          "detail": "백팩",
+          "img": "이미지소스"
+        }
+      ]
+    },
+
+    "female": {
+      "top": {
+        "step1": [],
+        "step2": [],
+        "step3": [],
+        "step4": [],
+        "step5": []
+      },
+
+      "bottom": {},
+
+      "jacket": {},
+
+      "shoes": {},
+
+      "accessory": []
+    }
+  }
+}

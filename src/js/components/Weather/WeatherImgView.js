@@ -1,19 +1,17 @@
-import { ViewComponent } from '../../core/ViewComponent.js';
-
-export class WeatherImgView extends ViewComponent {
+export class WeatherImgView {
   constructor(target, data) {
-    super(target);
+    this.target = target;
     this.data = data;
     this.render();
   }
 
-  getTemplate(data) {
+  getTemplate(imgName) {
     return `
-      <img class="weather-img" src="${data.male.step1.shoes[0].img}" alt="" />
+      <img class="weather-img" src="./src/asset/weather/${imgName}.svg" />
     `;
   }
 
-  async render() {
-    this.target.insertAdjacentHTML('beforeend', await this.getTemplate(this.data));
+  render() {
+    this.target.insertAdjacentHTML('beforeend', this.getTemplate(this.data));
   }
 }

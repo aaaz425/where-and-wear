@@ -1,9 +1,5 @@
 import { WEATHER } from '../../constant.js';
 
-// 기준: 0200, 0500, 0800, 1100, 1400, 1700, 2000, 2300
-// 하늘상태(SKY) 코드 : 맑음(1), 구름많음(3), 흐림(4)
-// 강수형태(PTY) 코드 : 없음(0), 비(1), 비/눈(2), 눈(3), 소나기(4)
-
 export function getFullUrl() {
   return `${WEATHER.URL}serviceKey=${
     WEATHER.APIKEY
@@ -32,7 +28,7 @@ function getToday() {
 
 function getTime() {
   const now = new Date();
-  const time = parseInt(now.toLocaleTimeString('it-IT')); // .split(':')[0].split(' ')[1]
+  const time = parseInt(now.toLocaleTimeString('it-IT'));
   return time;
 }
 

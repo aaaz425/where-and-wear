@@ -94,6 +94,6 @@
 litae: https://github.com/qkdflrgs  
 toko: https://github.com/aaaz425  
 
-디자인 피그마 링크: https://www.figma.com/file/SBB3oMGQjRAEgotVH7k5Gi/Untitled?type=design&node-id=0-1&t=KETeGfjTSUzI2K2n-0
+디자인 피그마 링크: https://www.figma.com/file/SBB3oMGQjRAEgotVH7k5Gi/Untitled?type=design&node-id=0-1&t=KETeGfjTSUzI2K2n-0  
 이미지 누끼 사이트: https://www.remove.bg/ko  
 기상청 OPEN APi: https://www.data.go.kr/data/15084084/openapi.do

@@ -1,0 +1,71 @@
+.main-place {
+  margin: 30px 0px 0px 85px;
+}
+
+.place-title {
+  display: flex;
+  align-items: end;
+  gap: 20px;
+  &_head {
+    @include typo('boldLG');
+    color: $color-main;
+  }
+  &_location {
+    @include typo('boldRG');
+    display: flex;
+    gap: 5px;
+    color: $color-gray;
+    > img {
+      width: 16px;
+      height: 16px;
+    }
+  }
+}
+
+.place-recommend {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  &_title {
+    @include typo('boldLG');
+  }
+  &_slider {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    > button {
+      width: 40px;
+      height: 40px;
+      border: none;
+    }
+  }
+}
+
+.place-list {
+  display: flex;
+  flex-direction: column;
+  &_img {
+    margin-bottom: 5px;
+    width: 136px;
+    height: 200px;
+  }
+  &_title {
+    @include typo('boldLG');
+    margin-bottom: 5px;
+  }
+  &_info {
+    @include typo('boldXS');
+    margin-bottom: 2px;
+  }
+  &_address {
+    @include typo('bodySM');
+  }
+}
+
+.recommend-img_slider {
+  width: 670px;
+  display: flex;
+  gap: 42px;
+  overflow: hidden;
+}

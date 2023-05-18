@@ -1,6 +1,6 @@
 import { ViewComponent } from '../../core/ViewComponent.js';
 
-export class WeatherView extends ViewComponent {
+export class WeatherMainView extends ViewComponent {
   getTemplate() {
     return `
       <div class="weather-tab">
@@ -10,9 +10,5 @@ export class WeatherView extends ViewComponent {
         </div>
       </div>
     `;
-  }
-
-  render() {
-    this.target.insertAdjacentHTML('beforeend', this.getTemplate());
   }
 }

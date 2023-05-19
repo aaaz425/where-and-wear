@@ -1,6 +1,11 @@
 import { ViewComponent } from '../../core/ViewComponent.js';
+import { $, addFocusClass, removeFocusClass } from '../../utils.js';
 
 export class OutfitMainView extends ViewComponent {
+  constructor(target) {
+    super(target);
+    this.setEvent();
+  }
   getTemplate() {
     return `
       <div class="outfit-recommendation">
@@ -17,5 +22,19 @@ export class OutfitMainView extends ViewComponent {
         </div>
       </div>
     `;
+  }
+
+  setEvent() {
+    $('.outfit-btn_wrapper').addEventListener('click', e => {
+      const isMale = e.target.classList.contains('male');
+
+      if (isMale) {
+        addFocusClass($('.male'));
+        removeFocusClass($('.female'));
+      } else {
+        addFocusClass($('.female'));
+        removeFocusClass($('.male'));
+      }
+    });
   }
 }

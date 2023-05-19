@@ -1,10 +1,13 @@
 import { $ } from './utils.js';
-import { App } from './app.js';
+import { App } from './App.js';
 import { HeaderView } from './components/Header/HeaderView.js';
 import { SliderModel } from './components/Slider/SliderModel.js';
 import { SliderView } from './components/Slider/SliderView.js';
 import { SliderController } from './components/Slider/SliderController.js';
 import { MainContentsView } from './components/MainContents/MainContentsView.js';
+import { MainContentsModel } from './components/MainContents/MainContentsModel.js';
+import { MainContentsController } from './components/MainContents/MainContentsController.js';
+import { ModelComponent } from './core/ModelComponent.js';
 import { OutfitMainView } from './components/Outfit/OutfitMainView.js';
 import { OutfitZoneView } from './components/Outfit/OutfitZoneView.js';
 import { OutfitInfoView } from './components/Outfit/OutfitInfoView.js';
@@ -16,13 +19,17 @@ import { WeatherDetailView } from './components/Weather/WeatherDetailView.js';
 import { WeatherModel } from './components/Weather/WeatherModel.js';
 import { WeatherController } from './components/Weather/WeatherController.js';
 
+
 class Main {
   constructor() {
     this.App = new App($('body'));
     this.HeaderView = new HeaderView($('.header'));
-    this.MainContentsView = new MainContentsView($('.main'));
+
+    this.MainContentsView = new MainContentsView($('.main-place'));
+    this.MainContentsModel = new MainContentsModel();
+    this.MainContentsController = new MainContentsController(this.MainContentsModel, this.MainContentsView);
     this.SliderModel = new SliderModel('dateSpot');
-    this.SliderView = new SliderView($('.place-recommend'));
+    this.SliderView = new SliderView($('.main-place'));
     this.SliderController = new SliderController(this.SliderModel, this.SliderView);
 
     this.WeatherModel = new WeatherModel();

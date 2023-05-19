@@ -52,7 +52,7 @@
     height: 200px;
   }
   &_title {
-    @include typo('boldLG');
+    @include typo('boldRG');
     margin-bottom: 5px;
   }
   &_info {
@@ -64,9 +64,13 @@
   }
 }
 
-.recommend-img_slider {
+.slider-wrap {
   width: 670px;
+  overflow: hidden;
+}
+
+.recommend-img_slider {
+  width: 100%;
   display: flex;
   gap: 42px;
-  overflow: hidden;
 }

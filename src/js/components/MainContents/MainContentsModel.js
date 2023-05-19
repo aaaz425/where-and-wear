@@ -1,16 +1,6 @@
 import { getCurrentCoordinate } from '../../utils.js';
 
-export class SliderModel {
-  constructor(url) {
-    this.url = `http://localhost:3000/${url}`;
-  }
-
-  async fetchData() {
-    const response = await fetch(this.url);
-    const data = await response.json();
-    return data;
-  }
-
+export class MainContentsModel {
   getCurrentAddress() {
     return new Promise((resolve, reject) => {
       const myLatLng = getCurrentCoordinate();

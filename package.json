@@ -1,0 +1,20 @@
+{
+  "name": "where-and-wear",
+  "version": "1.0.0",
+  "description": "recommand the today's date spot and today's outfit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch ./server/db.json --port 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.3"
+  },
+  "devDependencies": {
+    "sass": "^1.62.1"
+  },
+  "type": "module"
+}

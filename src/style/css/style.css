@@ -1,0 +1,307 @@
+/* base */ /* color */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+/* font */
+/* component */
+.header {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff7a00;
+}
+
+.nav {
+  padding: 0px 85px;
+  width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-searchBar {
+  position: relative;
+}
+.nav-searchBar_input {
+  padding: 0px 80px 0px 30px;
+  width: 390px;
+  height: 37px;
+  background-color: #d9d9d9;
+  border-radius: 30px;
+  border: none;
+  transition: box-shadow 0.3s ease;
+}
+.nav-searchBar_input:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.nav-searchBar_input:focus {
+  outline: 0;
+}
+.nav-searchBar_btn {
+  position: absolute;
+  left: 450px;
+  width: 50px;
+  height: 37px;
+  border: none;
+  border-radius: 0px 30px 30px 0px;
+  background-color: rgba(255, 122, 0, 0.4);
+}
+
+.nav-pages {
+  display: flex;
+  gap: 40px;
+}
+.nav-pages > a {
+  color: #ffffff;
+}
+.nav-pages_link {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: auto;
+  letter-spacing: 0;
+}
+
+.main {
+  display: flex;
+  margin: 30px 85px 85px 85px;
+  max-width: 1440px;
+  justify-content: space-between;
+}
+
+.place-title {
+  display: flex;
+  align-items: end;
+  gap: 20px;
+}
+.place-title_head {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: auto;
+  letter-spacing: 0;
+  color: #ff7a00;
+}
+.place-title_location {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: auto;
+  letter-spacing: 0;
+  display: flex;
+  gap: 5px;
+  color: #616161;
+}
+.place-title_location > img {
+  width: 16px;
+  height: 16px;
+}
+
+.place-recommend {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.place-recommend_title {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: auto;
+  letter-spacing: 0;
+}
+.place-recommend_slider {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+.place-recommend_slider > button {
+  width: 40px;
+  height: 40px;
+  border: none;
+}
+
+.place-list {
+  display: flex;
+  flex-direction: column;
+}
+.place-list_img {
+  margin-bottom: 5px;
+  width: 136px;
+  height: 200px;
+}
+.place-list_title {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: auto;
+  letter-spacing: 0;
+  margin-bottom: 5px;
+}
+.place-list_info {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 8px;
+  font-weight: 700;
+  line-height: auto;
+  letter-spacing: 0;
+  margin-bottom: 2px;
+}
+.place-list_address {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 8px;
+  font-weight: 400;
+  line-height: auto;
+  letter-spacing: 0;
+}
+
+.slider-wrap {
+  width: 670px;
+  overflow: hidden;
+}
+
+.recommend-img_slider {
+  width: 100%;
+  display: flex;
+  gap: 42px;
+}
+
+/* color */
+.outfit-recommendation {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 75px;
+}
+.outfit-recommendation .outfit-zone .outfit-header {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: auto;
+  letter-spacing: 0;
+  color: #ff7a00;
+}
+.outfit-recommendation .outfit-zone .outfit-background {
+  margin-top: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 300px;
+  background-color: #a3c2c2;
+}
+.outfit-recommendation .outfit-zone .outfit-background > * {
+  position: absolute;
+}
+.outfit-recommendation .outfit-zone .outfit-background .top {
+  width: 130px;
+  height: 130px;
+  transform: translate(35px, -70px);
+  z-index: 1;
+}
+.outfit-recommendation .outfit-zone .outfit-background .bottom {
+  width: 130px;
+  height: 150px;
+  transform: translate(40px, 50px);
+}
+.outfit-recommendation .outfit-zone .outfit-background .jacket {
+  width: 160px;
+  height: 160px;
+  transform: translate(-30px, -70px);
+}
+.outfit-recommendation .outfit-zone .outfit-background .shoes {
+  width: 80px;
+  height: 80px;
+  transform: translate(-10px, 110px);
+}
+.outfit-recommendation .outfit-zone .outfit-background .accessory {
+  width: 120px;
+  height: 120px;
+  transform: translate(-40px, 20px);
+}
+.outfit-recommendation .outfit-info .outfit-btn_wrapper {
+  transform: translateY(10px);
+  margin-bottom: 24px;
+}
+.outfit-recommendation .outfit-info .outfit-btn_wrapper .focus {
+  background-color: #ff7a00;
+  color: #ffffff;
+  border-radius: 50%;
+}
+.outfit-recommendation .outfit-info .outfit-btn_wrapper button {
+  padding: 0;
+  width: 25px;
+  height: 25px;
+  margin: 0 2px;
+  border: 0;
+  outline: 0;
+  background-color: inherit;
+  color: #616161;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: auto;
+  letter-spacing: 0;
+}
+.outfit-recommendation .outfit-info .outfit-btn_wrapper button:hover {
+  cursor: pointer;
+}
+.outfit-recommendation .outfit-info .outfit-detail div {
+  margin-bottom: 19px;
+}
+.outfit-recommendation .outfit-info .outfit-detail .outfit-category {
+  margin-right: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: auto;
+  letter-spacing: 0;
+}
+.outfit-recommendation .outfit-info .outfit-detail .outfit-item {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: auto;
+  letter-spacing: 0;
+}
+
+/* color */
+.weather-tab .weather-header {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: auto;
+  letter-spacing: 0;
+  color: #ff7a00;
+}
+.weather-tab .weather-detail {
+  display: flex;
+  gap: 42px;
+  align-items: center;
+  margin-top: 16px;
+}
+.weather-tab .weather-detail .weather-img {
+  width: 90px;
+  height: 90px;
+}
+.weather-tab .weather-detail .temperature-wrapper {
+  color: #616161;
+}
+.weather-tab .weather-detail .temperature-wrapper .temperature {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: auto;
+  letter-spacing: 0;
+}
+.weather-tab .weather-detail .temperature-wrapper .temperature-detail {
+  margin-top: 4px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: auto;
+  letter-spacing: 0;
+}
+.weather-tab .weather-detail .temperature-wrapper .temperature-detail .temperature-min {
+  margin-left: 4px;
+}
+
+/*# sourceMappingURL=style.css.map */

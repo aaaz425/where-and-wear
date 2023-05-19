@@ -3,7 +3,7 @@ import { WEATHER } from '../../constant.js';
 export function getFullUrl() {
   return `${WEATHER.URL}serviceKey=${
     WEATHER.APIKEY
-  }&numOfRows=500&pageNo=1&base_date=${getToday()}&base_time=${getCurrentTime()}&nx=60&ny=127&dataType=JSON`;
+  }&numOfRows=290&pageNo=1&base_date=${getToday()}&base_time=${getCurrentTime()}&nx=60&ny=127&dataType=JSON`;
 }
 
 function getToday() {

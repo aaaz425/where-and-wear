@@ -48,3 +48,11 @@ export function getCurrentCoordinate() {
 
   return defaultCoordinate;
 }
+
+export const addFocusClass = node => {
+  node.classList.add('focus');
+};
+
+export const removeFocusClass = node => {
+  node.classList.remove('focus');
+};

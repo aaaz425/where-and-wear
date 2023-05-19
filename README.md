@@ -9,7 +9,7 @@
 
 1. 사용자의 현재 위치를 기준으로 해당 자치구의 데이트 장소를 추천해줍니다  
 2. 데이트 장소는 식당, 카페, 놀거리로 구분되어 제공됩니다  
-3. 다른 지역을 원한다면 화면 상단에서 검색바를 이용하여 원하는 지역을 선택합니다
+3. 다른 지역을 원한다면 화면 상단에서 검색바를 이용하여 원하는 지역을 검색합니다
 
 **Wear?**
 
@@ -17,10 +17,12 @@
 2. 사용자는 성별을 선택할 수 있습니다   
 3. 의상 추천 탭 하단에는 오늘의 날씨 정보가 나타납니다
 
+<img src="https://user-images.githubusercontent.com/101464713/239025233-4d3a08fe-b05a-4b32-8d12-dcaa9085a123.png" alt="웨어 앤 웨어"/>
+
 **추가 정보**
 
 - 데이트 장소는 서울의 25개 자치구로 한정됩니다
-- 서울의 현재 기온은 서울 용산구 기준입니다
+- 오늘의 날씨는 서울 용산구 기준입니다
 - `오늘의 의상 추천`의 디폴트 값은 남성입니다
 - `오늘의 의상 추천`시 현재 기온을 총 5단계로 구분합니다
 
@@ -90,4 +92,8 @@
 ### 📙 Where & Wear 팀원 및 참고 자료
 
 litae: https://github.com/qkdflrgs  
-toko: https://github.com/aaaz425
+toko: https://github.com/aaaz425  
+
+디자인 피그마 링크: https://www.figma.com/file/SBB3oMGQjRAEgotVH7k5Gi/Untitled?type=design&node-id=0-1&t=KETeGfjTSUzI2K2n-0  
+이미지 누끼 사이트: https://www.remove.bg/ko  
+기상청 OPEN APi: https://www.data.go.kr/data/15084084/openapi.do

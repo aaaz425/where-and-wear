@@ -1,0 +1,38 @@
+@import '../Base/color.scss';
+@import '../Base/mixin.scss';
+
+.weather-tab {
+  .weather-header {
+    @include typo('boldLG');
+    color: $color-main;
+  }
+
+  .weather-detail {
+    display: flex;
+    gap: 42px;
+    align-items: center;
+    margin-top: 16px;
+
+    .weather-img {
+      width: 90px;
+      height: 90px;
+    }
+
+    .temperature-wrapper {
+      color: $color-gray;
+
+      .temperature {
+        @include typo('boldLG');
+      }
+
+      .temperature-detail {
+        margin-top: 4px;
+        @include typo('boldSM');
+
+        .temperature-min {
+          margin-left: 4px;
+        }
+      }
+    }
+  }
+}

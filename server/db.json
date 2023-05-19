@@ -138,459 +138,659 @@
     }
   },
 
-  "clothes": {
+  "outfit": {
     "male": {
-      "top": {
-        "step1": [
+      "step1": {
+        "top": [
           {
             "detail": "아이보리 라운드 니트",
-            "img": "../src/asset/dress/top/knit.png"
+            "img": "../src/asset/outfit/top/knit.png"
           },
           {
             "detail": "그레이 니트 집업",
-            "img": "../src/asset/dress/top/knit-zipup.png"
+            "img": "../src/asset/outfit/top/knit-zipup.png"
           }
         ],
-        "step2": [
-          {
-            "detail": "아이보리 라운드 니트",
-            "img": "../src/asset/dress/top/knit.png"
-          },
-          {
-            "detail": "레드 맨투맨",
-            "img": "../src/asset/dress/top/sweat-shirt.png"
-          }
-        ],
-        "step3": [
-          {
-            "detail": "레드 맨투맨",
-            "img": "../src/asset/dress/top/sweat-shirt.png"
-          },
-          {
-            "detail": "그레이 후드 티셔츠",
-            "img": "../src/asset/dress/top/hoodie.png"
-          }
-        ],
-        "step4": [
-          {
-            "detail": "스트라이프 긴팔 티셔츠",
-            "img": "../src/asset/dress/top/stripe-shirt.png"
-          },
-          {
-            "detail": "스카이 셔츠",
-            "img": "../src/asset/dress/top/sky-shirt.png"
-          }
-        ],
-        "step5": [
-          {
-            "detail": "화이트 반팔 티셔츠",
-            "img": "../src/asset/dress/top/white-shirt.png"
-          },
-          {
-            "detail": "블랙 반팔 티셔츠",
-            "img": "../src/asset/dress/top/black-shirt.png"
-          }
-        ]
-      },
-
-      "bottom": {
-        "step1": [
+        "bottom": [
           {
             "detail": "헤비 데님 팬츠",
-            "img": "../src/asset/dress/bottom/heavy-denim-pants.png"
+            "img": "../src/asset/outfit/bottom/heavy-denim-pants.png"
           },
           {
             "detail": "기모 블랙 슬랙스",
-            "img": "../src/asset/dress/bottom/heavy-slacks.png"
+            "img": "../src/asset/outfit/bottom/heavy-slacks.png"
           }
         ],
-        "step2": [
-          {
-            "detail": "헤비 데님 팬츠",
-            "img": "../src/asset/dress/bottom/heavy-denim-pants.png"
-          },
-          {
-            "detail": "코듀로이 브라운 팬츠",
-            "img": "../src/asset/dress/bottom/corduroy-pants.png"
-          }
-        ],
-        "step3": [
-          {
-            "detail": "라이트 데님 팬츠",
-            "img": "../src/asset/dress/bottom/light-denim-pants.png"
-          },
-          {
-            "detail": "그레이 스웨트 팬츠",
-            "img": "../src/asset/dress/bottom/sweat-pants.png"
-          }
-        ],
-        "step4": [
-          {
-            "detail": "라이트 데님 팬츠",
-            "img": "../src/asset/dress/bottom/light-denim-pants.png"
-          },
-          {
-            "detail": "라이트 베이지 슬랙스",
-            "img": "../src/asset/dress/bottom/light-slacks.png"
-          }
-        ],
-        "step5": [
-          {
-            "detail": "블랙 반바지",
-            "img": "../src/asset/dress/bottom/shorts.png"
-          },
-          {
-            "detail": "아이보리 린넨 팬츠",
-            "img": "../src/asset/dress/bottom/linen-pants.png"
-          }
-        ]
-      },
-
-      "jacket": {
-        "step1": [
+        "jacket": [
           {
             "detail": "그레이 카키 싱글 코트",
-            "img": "../src/asset/dress/jacket/coat.png"
+            "img": "../src/asset/outfit/jacket/coat.png"
           },
           {
             "detail": "블랙 숏 패딩",
-            "img": "../src/asset/dress/jacket/padding.png"
+            "img": "../src/asset/outfit/jacket/padding.png"
           }
         ],
-        "step2": [
+        "shoes": [
+          {
+            "detail": "첼시 부츠",
+            "img": "../src/asset/outfit/shoes/boots.png"
+          },
+          {
+            "detail": "어글리 슈즈",
+            "img": "../src/asset/outfit/shoes/ugly-shoes.png"
+          }
+        ],
+        "accessory": [
+          {
+            "detail": "메신저백",
+            "img": "../src/asset/outfit/accessory/messanger-bag.png"
+          },
+          {
+            "detail": "백팩",
+            "img": "../src/asset/outfit/accessory/back-pack.png"
+          },
+          {
+            "detail": "블랙 메탈 시계",
+            "img": "../src/asset/outfit/accessory/watch.png"
+          },
+          {
+            "detail": "블랙 뿔테 안경",
+            "img": "../src/asset/outfit/accessory/glasses.png"
+          },
+          {
+            "detail": "화이트 볼캡",
+            "img": "../src/asset/outfit/accessory/cap.png"
+          }
+        ]
+      },
+
+      "step2": {
+        "top": [
+          {
+            "detail": "아이보리 라운드 니트",
+            "img": "../src/asset/outfit/top/knit.png"
+          },
+          {
+            "detail": "레드 맨투맨",
+            "img": "../src/asset/outfit/top/sweat-shirt.png"
+          }
+        ],
+        "bottom": [
+          {
+            "detail": "헤비 데님 팬츠",
+            "img": "../src/asset/outfit/bottom/heavy-denim-pants.png"
+          },
+          {
+            "detail": "코듀로이 브라운 팬츠",
+            "img": "../src/asset/outfit/bottom/corduroy-pants.png"
+          }
+        ],
+        "jacket": [
           {
             "detail": "피쉬테일 야상",
-            "img": "../src/asset/dress/jacket/military-jumper.png"
+            "img": "../src/asset/outfit/jacket/military-jumper.png"
           },
           {
             "detail": "항공 점퍼",
-            "img": "../src/asset/dress/jacket/flight-jacket.png"
+            "img": "../src/asset/outfit/jacket/flight-jacket.png"
           }
         ],
-        "step3": [
+        "shoes": [
+          {
+            "detail": "페니 로퍼",
+            "img": "../src/asset/outfit/shoes/loafer.png"
+          },
+          {
+            "detail": "어글리 슈즈",
+            "img": "../src/asset/outfit/shoes/ugly-shoes.png"
+          }
+        ],
+        "accessory": [
+          {
+            "detail": "메신저백",
+            "img": "../src/asset/outfit/accessory/messanger-bag.png"
+          },
+          {
+            "detail": "백팩",
+            "img": "../src/asset/outfit/accessory/back-pack.png"
+          },
+          {
+            "detail": "블랙 메탈 시계",
+            "img": "../src/asset/outfit/accessory/watch.png"
+          },
+          {
+            "detail": "블랙 뿔테 안경",
+            "img": "../src/asset/outfit/accessory/glasses.png"
+          },
+          {
+            "detail": "화이트 볼캡",
+            "img": "../src/asset/outfit/accessory/cap.png"
+          }
+        ]
+      },
+
+      "step3": {
+        "top": [
+          {
+            "detail": "레드 맨투맨",
+            "img": "../src/asset/outfit/top/sweat-shirt.png"
+          },
+          {
+            "detail": "그레이 후드 티셔츠",
+            "img": "../src/asset/outfit/top/hoodie.png"
+          }
+        ],
+        "bottom": [
+          {
+            "detail": "라이트 데님 팬츠",
+            "img": "../src/asset/outfit/bottom/light-denim-pants.png"
+          },
+          {
+            "detail": "그레이 스웨트 팬츠",
+            "img": "../src/asset/outfit/bottom/sweat-pants.png"
+          }
+        ],
+        "jacket": [
           {
             "detail": "브릭 가디건",
-            "img": "../src/asset/dress/jacket/cardigan.png"
+            "img": "../src/asset/outfit/jacket/cardigan.png"
           },
           {
             "detail": "데님 자켓",
-            "img": "../src/asset/dress/jacket/denim-jacket.png"
+            "img": "../src/asset/outfit/jacket/denim-jacket.png"
           }
         ],
-        "step4": [
+        "shoes": [
           {
-            "detail": "브릭 가디건",
-            "img": "../src/asset/dress/jacket/cardigan.png"
-          },
-          {
-            "detail": "블랙 트러커 자켓",
-            "img": "../src/asset/dress/jacket/thin-jacket.png"
-          }
-        ]
-      },
-
-      "shoes": {
-        "step1": [
-          {
-            "detail": "첼시 부츠",
-            "img": "../src/asset/dress/shoes/boots.png"
-          },
-          {
-            "detail": "어글리 슈즈",
-            "img": "../src/asset/dress/shoes/ugly-shoes.png"
-          }
-        ],
-        "step2": [
-          {
-            "detail": "페니 로퍼",
-            "img": "../src/asset/dress/shoes/loafer.png"
-          },
-          {
-            "detail": "어글리 슈즈",
-            "img": "../src/asset/dress/shoes/ugly-shoes.png"
-          }
-        ],
-        "step3": [
-          {
-            "detail": "블랙 하이 컨버스",
-            "img": "../src/asset/dress/shoes/converse.png"
+            "detail": "블랙 컨버스 하이",
+            "img": "../src/asset/outfit/shoes/converse.png"
           },
           {
             "detail": "화이트 스니커즈",
-            "img": "../src/asset/dress/shoes/white-sneakers.png"
+            "img": "../src/asset/outfit/shoes/white-sneakers.png"
           }
         ],
-        "step4": [
+        "accessory": [
           {
-            "detail": "블랙 하이 컨버스",
-            "img": "../src/asset/dress/shoes/converse.png"
+            "detail": "메신저백",
+            "img": "../src/asset/outfit/accessory/messanger-bag.png"
           },
           {
-            "detail": "블루 반스",
-            "img": "../src/asset/dress/shoes/blue-vans.png"
-          }
-        ],
-        "step5": [
-          {
-            "detail": "쪼리 슬리퍼",
-            "img": "../src/asset/dress/shoes/slipper.png"
+            "detail": "백팩",
+            "img": "../src/asset/outfit/accessory/back-pack.png"
           },
           {
-            "detail": "블루 반스",
-            "img": "../src/asset/dress/shoes/blue-vans.png"
+            "detail": "블랙 메탈 시계",
+            "img": "../src/asset/outfit/accessory/watch.png"
+          },
+          {
+            "detail": "블랙 뿔테 안경",
+            "img": "../src/asset/outfit/accessory/glasses.png"
+          },
+          {
+            "detail": "화이트 볼캡",
+            "img": "../src/asset/outfit/accessory/cap.png"
           }
         ]
       },
 
-      "accessory": [
-        {
-          "detail": "메신저백",
-          "img": "../src/asset/dress/accessory/messanger-bag.png"
-        },
-        {
-          "detail": "백팩",
-          "img": "../src/asset/dress/accessory/back-pack.png"
-        },
-        {
-          "detail": "블랙 메탈 시계",
-          "img": "../src/asset/dress/accessory/watch.png"
-        },
-        {
-          "detail": "블랙 뿔테 안경",
-          "img": "../src/asset/dress/accessory/glasses.png"
-        },
-        {
-          "detail": "화이트 볼캡",
-          "img": "../src/asset/dress/accessory/cap.png"
-        }
-      ]
+      "step4": {
+        "top": [
+          {
+            "detail": "스트라이프 긴팔 티셔츠",
+            "img": "../src/asset/outfit/top/stripe-shirt.png"
+          },
+          {
+            "detail": "스카이 셔츠",
+            "img": "../src/asset/outfit/top/sky-shirt.png"
+          }
+        ],
+        "bottom": [
+          {
+            "detail": "라이트 데님 팬츠",
+            "img": "../src/asset/outfit/bottom/light-denim-pants.png"
+          },
+          {
+            "detail": "라이트 베이지 슬랙스",
+            "img": "../src/asset/outfit/bottom/light-slacks.png"
+          }
+        ],
+        "jacket": [
+          {
+            "detail": "브릭 가디건",
+            "img": "../src/asset/outfit/jacket/cardigan.png"
+          },
+          {
+            "detail": "블랙 트러커 자켓",
+            "img": "../src/asset/outfit/jacket/thin-jacket.png"
+          }
+        ],
+        "shoes": [
+          {
+            "detail": "블랙 컨버스 하이",
+            "img": "../src/asset/outfit/shoes/converse.png"
+          },
+          {
+            "detail": "블루 반스",
+            "img": "../src/asset/outfit/shoes/blue-vans.png"
+          }
+        ],
+        "accessory": [
+          {
+            "detail": "메신저백",
+            "img": "../src/asset/outfit/accessory/messanger-bag.png"
+          },
+          {
+            "detail": "백팩",
+            "img": "../src/asset/outfit/accessory/back-pack.png"
+          },
+          {
+            "detail": "블랙 메탈 시계",
+            "img": "../src/asset/outfit/accessory/watch.png"
+          },
+          {
+            "detail": "블랙 뿔테 안경",
+            "img": "../src/asset/outfit/accessory/glasses.png"
+          },
+          {
+            "detail": "화이트 볼캡",
+            "img": "../src/asset/outfit/accessory/cap.png"
+          }
+        ]
+      },
+
+      "step5": {
+        "top": [
+          {
+            "detail": "화이트 반팔 티셔츠",
+            "img": "../src/asset/outfit/top/white-shirt.png"
+          },
+          {
+            "detail": "블랙 반팔 티셔츠",
+            "img": "../src/asset/outfit/top/black-shirt.png"
+          }
+        ],
+        "bottom": [
+          {
+            "detail": "블랙 반바지",
+            "img": "../src/asset/outfit/bottom/shorts.png"
+          },
+          {
+            "detail": "아이보리 린넨 팬츠",
+            "img": "../src/asset/outfit/bottom/linen-pants.png"
+          }
+        ],
+        "jacket": [
+          {
+            "detail": "없음",
+            "img": "../src/asset/outfit/jacket/water-melon.png"
+          },
+          {
+            "detail": "없음",
+            "img": "../src/asset/outfit/jacket/electric-fan.png"
+          }
+        ],
+        "shoes": [
+          {
+            "detail": "쪼리 슬리퍼",
+            "img": "../src/asset/outfit/shoes/slipper.png"
+          },
+          {
+            "detail": "블루 반스",
+            "img": "../src/asset/outfit/shoes/blue-vans.png"
+          }
+        ],
+        "accessory": [
+          {
+            "detail": "메신저백",
+            "img": "../src/asset/outfit/accessory/messanger-bag.png"
+          },
+          {
+            "detail": "백팩",
+            "img": "../src/asset/outfit/accessory/back-pack.png"
+          },
+          {
+            "detail": "블랙 메탈 시계",
+            "img": "../src/asset/outfit/accessory/watch.png"
+          },
+          {
+            "detail": "블랙 뿔테 안경",
+            "img": "../src/asset/outfit/accessory/glasses.png"
+          },
+          {
+            "detail": "화이트 볼캡",
+            "img": "../src/asset/outfit/accessory/cap.png"
+          }
+        ]
+      }
     },
 
     "female": {
-      "top": {
-        "step1": [
+      "step1": {
+        "top": [
           {
             "detail": "아이보리 라운드 니트",
-            "img": "../src/asset/dress/top/knit.png"
+            "img": "../src/asset/outfit/top/knit.png"
           },
           {
             "detail": "그레이 니트 집업",
-            "img": "../src/asset/dress/top/knit-zipup.png"
+            "img": "../src/asset/outfit/top/knit-zipup.png"
           }
         ],
-        "step2": [
-          {
-            "detail": "아이보리 라운드 니트",
-            "img": "../src/asset/dress/top/knit.png"
-          },
-          {
-            "detail": "레드 맨투맨",
-            "img": "../src/asset/dress/top/sweat-shirt.png"
-          }
-        ],
-        "step3": [
-          {
-            "detail": "레드 맨투맨",
-            "img": "../src/asset/dress/top/sweat-shirt.png"
-          },
-          {
-            "detail": "그레이 후드 티셔츠",
-            "img": "../src/asset/dress/top/hoodie.png"
-          }
-        ],
-        "step4": [
-          {
-            "detail": "스트라이프 긴팔 티셔츠",
-            "img": "../src/asset/dress/top/stripe-shirt.png"
-          },
-          {
-            "detail": "스카이 셔츠",
-            "img": "../src/asset/dress/top/sky-shirt.png"
-          }
-        ],
-        "step5": [
-          {
-            "detail": "화이트 반팔 티셔츠",
-            "img": "../src/asset/dress/top/white-shirt.png"
-          },
-          {
-            "detail": "블랙 반팔 티셔츠",
-            "img": "../src/asset/dress/top/black-shirt.png"
-          }
-        ]
-      },
-
-      "bottom": {
-        "step1": [
+        "bottom": [
           {
             "detail": "헤비 데님 팬츠",
-            "img": "../src/asset/dress/bottom/heavy-denim-pants.png"
+            "img": "../src/asset/outfit/bottom/heavy-denim-pants.png"
           },
           {
             "detail": "기모 블랙 슬랙스",
-            "img": "../src/asset/dress/bottom/heavy-slacks.png"
+            "img": "../src/asset/outfit/bottom/heavy-slacks.png"
           }
         ],
-        "step2": [
-          {
-            "detail": "헤비 데님 팬츠",
-            "img": "../src/asset/dress/bottom/heavy-denim-pants.png"
-          },
-          {
-            "detail": "코듀로이 브라운 팬츠",
-            "img": "../src/asset/dress/bottom/corduroy-pants.png"
-          }
-        ],
-        "step3": [
-          {
-            "detail": "라이트 데님 팬츠",
-            "img": "../src/asset/dress/bottom/light-denim-pants.png"
-          },
-          {
-            "detail": "그레이 스웨트 팬츠",
-            "img": "../src/asset/dress/bottom/sweat-pants.png"
-          }
-        ],
-        "step4": [
-          {
-            "detail": "라이트 데님 팬츠",
-            "img": "../src/asset/dress/bottom/light-denim-pants.png"
-          },
-          {
-            "detail": "라이트 베이지 슬랙스",
-            "img": "../src/asset/dress/bottom/light-slacks.png"
-          }
-        ],
-        "step5": [
-          {
-            "detail": "블랙 반바지",
-            "img": "../src/asset/dress/bottom/shorts.png"
-          },
-          {
-            "detail": "아이보리 린넨 팬츠",
-            "img": "../src/asset/dress/bottom/linen-pants.png"
-          }
-        ]
-      },
-
-      "jacket": {
-        "step1": [
+        "jacket": [
           {
             "detail": "그레이 카키 싱글 코트",
-            "img": "../src/asset/dress/jacket/coat.png"
+            "img": "../src/asset/outfit/jacket/coat.png"
           },
           {
             "detail": "블랙 숏 패딩",
-            "img": "../src/asset/dress/jacket/padding.png"
+            "img": "../src/asset/outfit/jacket/padding.png"
           }
         ],
-        "step2": [
+        "shoes": [
+          {
+            "detail": "첼시 부츠",
+            "img": "../src/asset/outfit/shoes/boots.png"
+          },
+          {
+            "detail": "어글리 슈즈",
+            "img": "../src/asset/outfit/shoes/ugly-shoes.png"
+          }
+        ],
+        "accessory": [
+          {
+            "detail": "메신저백",
+            "img": "../src/asset/outfit/accessory/messanger-bag.png"
+          },
+          {
+            "detail": "백팩",
+            "img": "../src/asset/outfit/accessory/back-pack.png"
+          },
+          {
+            "detail": "블랙 메탈 시계",
+            "img": "../src/asset/outfit/accessory/watch.png"
+          },
+          {
+            "detail": "블랙 뿔테 안경",
+            "img": "../src/asset/outfit/accessory/glasses.png"
+          },
+          {
+            "detail": "화이트 볼캡",
+            "img": "../src/asset/outfit/accessory/cap.png"
+          }
+        ]
+      },
+
+      "step2": {
+        "top": [
+          {
+            "detail": "아이보리 라운드 니트",
+            "img": "../src/asset/outfit/top/knit.png"
+          },
+          {
+            "detail": "레드 맨투맨",
+            "img": "../src/asset/outfit/top/sweat-shirt.png"
+          }
+        ],
+        "bottom": [
+          {
+            "detail": "헤비 데님 팬츠",
+            "img": "../src/asset/outfit/bottom/heavy-denim-pants.png"
+          },
+          {
+            "detail": "코듀로이 브라운 팬츠",
+            "img": "../src/asset/outfit/bottom/corduroy-pants.png"
+          }
+        ],
+        "jacket": [
           {
             "detail": "피쉬테일 야상",
-            "img": "../src/asset/dress/jacket/military-jumper.png"
+            "img": "../src/asset/outfit/jacket/military-jumper.png"
           },
           {
             "detail": "항공 점퍼",
-            "img": "../src/asset/dress/jacket/flight-jacket.png"
+            "img": "../src/asset/outfit/jacket/flight-jacket.png"
           }
         ],
-        "step3": [
+        "shoes": [
+          {
+            "detail": "페니 로퍼",
+            "img": "../src/asset/outfit/shoes/loafer.png"
+          },
+          {
+            "detail": "어글리 슈즈",
+            "img": "../src/asset/outfit/shoes/ugly-shoes.png"
+          }
+        ],
+        "accessory": [
+          {
+            "detail": "메신저백",
+            "img": "../src/asset/outfit/accessory/messanger-bag.png"
+          },
+          {
+            "detail": "백팩",
+            "img": "../src/asset/outfit/accessory/back-pack.png"
+          },
+          {
+            "detail": "블랙 메탈 시계",
+            "img": "../src/asset/outfit/accessory/watch.png"
+          },
+          {
+            "detail": "블랙 뿔테 안경",
+            "img": "../src/asset/outfit/accessory/glasses.png"
+          },
+          {
+            "detail": "화이트 볼캡",
+            "img": "../src/asset/outfit/accessory/cap.png"
+          }
+        ]
+      },
+
+      "step3": {
+        "top": [
+          {
+            "detail": "레드 맨투맨",
+            "img": "../src/asset/outfit/top/sweat-shirt.png"
+          },
+          {
+            "detail": "그레이 후드 티셔츠",
+            "img": "../src/asset/outfit/top/hoodie.png"
+          }
+        ],
+        "bottom": [
+          {
+            "detail": "라이트 데님 팬츠",
+            "img": "../src/asset/outfit/bottom/light-denim-pants.png"
+          },
+          {
+            "detail": "그레이 스웨트 팬츠",
+            "img": "../src/asset/outfit/bottom/sweat-pants.png"
+          }
+        ],
+        "jacket": [
           {
             "detail": "브릭 가디건",
-            "img": "../src/asset/dress/jacket/cardigan.png"
+            "img": "../src/asset/outfit/jacket/cardigan.png"
           },
           {
             "detail": "데님 자켓",
-            "img": "../src/asset/dress/jacket/denim-jacket.png"
+            "img": "../src/asset/outfit/jacket/denim-jacket.png"
           }
         ],
-        "step4": [
+        "shoes": [
           {
-            "detail": "브릭 가디건",
-            "img": "../src/asset/dress/jacket/cardigan.png"
-          },
-          {
-            "detail": "블랙 트러커 자켓",
-            "img": "../src/asset/dress/jacket/thin-jacket.png"
-          }
-        ]
-      },
-
-      "shoes": {
-        "step1": [
-          {
-            "detail": "첼시 부츠",
-            "img": "../src/asset/dress/shoes/boots.png"
-          },
-          {
-            "detail": "어글리 슈즈",
-            "img": "../src/asset/dress/shoes/ugly-shoes.png"
-          }
-        ],
-        "step2": [
-          {
-            "detail": "페니 로퍼",
-            "img": "../src/asset/dress/shoes/loafer.png"
-          },
-          {
-            "detail": "어글리 슈즈",
-            "img": "../src/asset/dress/shoes/ugly-shoes.png"
-          }
-        ],
-        "step3": [
-          {
-            "detail": "블랙 하이 컨버스",
-            "img": "../src/asset/dress/shoes/converse.png"
+            "detail": "블랙 컨버스 하이",
+            "img": "../src/asset/outfit/shoes/converse.png"
           },
           {
             "detail": "화이트 스니커즈",
-            "img": "../src/asset/dress/shoes/white-sneakers.png"
+            "img": "../src/asset/outfit/shoes/white-sneakers.png"
           }
         ],
-        "step4": [
+        "accessory": [
           {
-            "detail": "블랙 하이 컨버스",
-            "img": "../src/asset/dress/shoes/converse.png"
+            "detail": "메신저백",
+            "img": "../src/asset/outfit/accessory/messanger-bag.png"
           },
           {
-            "detail": "블루 반스",
-            "img": "../src/asset/dress/shoes/blue-vans.png"
-          }
-        ],
-        "step5": [
-          {
-            "detail": "쪼리 슬리퍼",
-            "img": "../src/asset/dress/shoes/slipper.png"
+            "detail": "백팩",
+            "img": "../src/asset/outfit/accessory/back-pack.png"
           },
           {
-            "detail": "블루 반스",
-            "img": "../src/asset/dress/shoes/blue-vans.png"
+            "detail": "블랙 메탈 시계",
+            "img": "../src/asset/outfit/accessory/watch.png"
+          },
+          {
+            "detail": "블랙 뿔테 안경",
+            "img": "../src/asset/outfit/accessory/glasses.png"
+          },
+          {
+            "detail": "화이트 볼캡",
+            "img": "../src/asset/outfit/accessory/cap.png"
           }
         ]
       },
 
-      "accessory": [
-        {
-          "detail": "메신저백",
-          "img": "../src/asset/dress/accessory/messanger-bag.png"
-        },
-        {
-          "detail": "백팩",
-          "img": "../src/asset/dress/accessory/back-pack.png"
-        },
-        {
-          "detail": "블랙 메탈 시계",
-          "img": "../src/asset/dress/accessory/watch.png"
-        },
-        {
-          "detail": "블랙 뿔테 안경",
-          "img": "../src/asset/dress/accessory/glasses.png"
-        },
-        {
-          "detail": "화이트 볼캡",
-          "img": "../src/asset/dress/accessory/cap.png"
-        }
-      ]
+      "step4": {
+        "top": [
+          {
+            "detail": "스트라이프 긴팔 티셔츠",
+            "img": "../src/asset/outfit/top/stripe-shirt.png"
+          },
+          {
+            "detail": "스카이 셔츠",
+            "img": "../src/asset/outfit/top/sky-shirt.png"
+          }
+        ],
+        "bottom": [
+          {
+            "detail": "라이트 데님 팬츠",
+            "img": "../src/asset/outfit/bottom/light-denim-pants.png"
+          },
+          {
+            "detail": "라이트 베이지 슬랙스",
+            "img": "../src/asset/outfit/bottom/light-slacks.png"
+          }
+        ],
+        "jacket": [
+          {
+            "detail": "브릭 가디건",
+            "img": "../src/asset/outfit/jacket/cardigan.png"
+          },
+          {
+            "detail": "블랙 트러커 자켓",
+            "img": "../src/asset/outfit/jacket/thin-jacket.png"
+          }
+        ],
+        "shoes": [
+          {
+            "detail": "블랙 컨버스 하이",
+            "img": "../src/asset/outfit/shoes/converse.png"
+          },
+          {
+            "detail": "블루 반스",
+            "img": "../src/asset/outfit/shoes/blue-vans.png"
+          }
+        ],
+        "accessory": [
+          {
+            "detail": "메신저백",
+            "img": "../src/asset/outfit/accessory/messanger-bag.png"
+          },
+          {
+            "detail": "백팩",
+            "img": "../src/asset/outfit/accessory/back-pack.png"
+          },
+          {
+            "detail": "블랙 메탈 시계",
+            "img": "../src/asset/outfit/accessory/watch.png"
+          },
+          {
+            "detail": "블랙 뿔테 안경",
+            "img": "../src/asset/outfit/accessory/glasses.png"
+          },
+          {
+            "detail": "화이트 볼캡",
+            "img": "../src/asset/outfit/accessory/cap.png"
+          }
+        ]
+      },
+
+      "step5": {
+        "top": [
+          {
+            "detail": "화이트 반팔 티셔츠",
+            "img": "../src/asset/outfit/top/white-shirt.png"
+          },
+          {
+            "detail": "블랙 반팔 티셔츠",
+            "img": "../src/asset/outfit/top/black-shirt.png"
+          }
+        ],
+        "bottom": [
+          {
+            "detail": "블랙 반바지",
+            "img": "../src/asset/outfit/bottom/shorts.png"
+          },
+          {
+            "detail": "아이보리 린넨 팬츠",
+            "img": "../src/asset/outfit/bottom/linen-pants.png"
+          }
+        ],
+        "jacket": [
+          {
+            "detail": "없음",
+            "img": "../src/asset/outfit/jacket/water-melon.png"
+          },
+          {
+            "detail": "없음",
+            "img": "../src/asset/outfit/jacket/electric-fan.png"
+          }
+        ],
+        "shoes": [
+          {
+            "detail": "쪼리 슬리퍼",
+            "img": "../src/asset/outfit/shoes/slipper.png"
+          },
+          {
+            "detail": "블루 반스",
+            "img": "../src/asset/outfit/shoes/blue-vans.png"
+          }
+        ],
+        "accessory": [
+          {
+            "detail": "메신저백",
+            "img": "../src/asset/outfit/accessory/messanger-bag.png"
+          },
+          {
+            "detail": "백팩",
+            "img": "../src/asset/outfit/accessory/back-pack.png"
+          },
+          {
+            "detail": "블랙 메탈 시계",
+            "img": "../src/asset/outfit/accessory/watch.png"
+          },
+          {
+            "detail": "블랙 뿔테 안경",
+            "img": "../src/asset/outfit/accessory/glasses.png"
+          },
+          {
+            "detail": "화이트 볼캡",
+            "img": "../src/asset/outfit/accessory/cap.png"
+          }
+        ]
+      }
     }
   }
 }

@@ -129,7 +129,7 @@
 }
 .place-list_title {
   font-family: 'Noto Sans KR', sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
   line-height: auto;
   letter-spacing: 0;
@@ -151,11 +151,15 @@
   letter-spacing: 0;
 }
 
-.recommend-img_slider {
+.slider-wrap {
   width: 670px;
+  overflow: hidden;
+}
+
+.recommend-img_slider {
+  width: 100%;
   display: flex;
   gap: 42px;
-  overflow: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */

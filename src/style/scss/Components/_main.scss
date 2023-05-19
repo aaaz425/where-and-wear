@@ -1,6 +1,8 @@
-.main-place {
-  margin: 30px 0px 0px 85px;
+.main {
   display: flex;
+  margin: 30px 85px 85px 85px;
+  max-width: 1440px;
+  justify-content: space-between;
 }
 
 .place-title {

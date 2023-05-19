@@ -6,6 +6,7 @@ export class App extends ViewComponent {
       <header class="header"></header>
       <main id="main" class="main">
         <section class="main-place"></section>
+        <section class="sub-info"></section>
       </main>`;
   }
 }

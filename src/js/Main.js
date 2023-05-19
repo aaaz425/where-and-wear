@@ -35,9 +35,9 @@ class Main {
     this.WeatherModel = new WeatherModel();
     this.OutfitModel = new OutfitModel('outfit');
 
-    this.OutfitMainView = new OutfitMainView($('.outfit-recommend'));
+    this.OutfitMainView = new OutfitMainView($('.sub-info'));
 
-    this.WeatherView = new WeatherMainView($('.outfit-recommend'));
+    this.WeatherView = new WeatherMainView($('.sub-info'));
     this.WeatherController = new WeatherController(this.WeatherModel, this.WeatherView);
     this.OutfitController = new OutfitController(this.OutfitModel, this.WeatherController);
 

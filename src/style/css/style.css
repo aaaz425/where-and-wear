@@ -62,9 +62,11 @@
   letter-spacing: 0;
 }
 
-.main-place {
-  margin: 30px 0px 0px 85px;
+.main {
   display: flex;
+  margin: 30px 85px 85px 85px;
+  max-width: 1440px;
+  justify-content: space-between;
 }
 
 .place-title {
@@ -129,7 +131,7 @@
   height: 200px;
 }
 .place-list_title {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: auto;
@@ -164,10 +166,6 @@
 }
 
 /* color */
-.outfit-recommend {
-  margin-left: 200px;
-}
-
 .outfit-recommendation {
   display: flex;
   gap: 20px;

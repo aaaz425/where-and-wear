@@ -17,7 +17,7 @@
 2. 사용자는 성별을 선택할 수 있습니다   
 3. 의상 추천 탭 하단에는 오늘의 날씨 정보가 나타납니다
 
-<img src="https://user-images.githubusercontent.com/101464713/239025233-4d3a08fe-b05a-4b32-8d12-dcaa9085a123.png" alt="웨어 앤 웨어"/>
+<img src="https://user-images.githubusercontent.com/101464713/239460112-44554816-905c-4556-882e-ad5be5f8035e.mov" alt="웨어 앤 웨어"/>
 
 **추가 정보**
 
@@ -94,6 +94,6 @@
 litae: https://github.com/qkdflrgs  
 toko: https://github.com/aaaz425  
 
-디자인 피그마 링크: https://www.figma.com/file/SBB3oMGQjRAEgotVH7k5Gi/Untitled?type=design&node-id=0-1&t=KETeGfjTSUzI2K2n-0  
+디자인 링크: https://www.figma.com/file/SBB3oMGQjRAEgotVH7k5Gi/Untitled?type=design&node-id=0-1&t=KETeGfjTSUzI2K2n-0  
 이미지 누끼 사이트: https://www.remove.bg/ko  
 기상청 OPEN APi: https://www.data.go.kr/data/15084084/openapi.do

@@ -15,42 +15,42 @@ export class WeatherController {
       PTY: 0, //강수형태
     };
 
-    for (const list of await weatherArr) {
+    for (const list of weatherArr) {
       switch (list.category) {
         case 'TMX':
-          const temp1 = [];
-          temp1.push(list.fcstValue);
-          weatherObj.TMX = temp1[0];
+          if (list.fcstValue) {
+            weatherObj.TMX = list.fcstValue;
+          }
           break;
 
         case 'TMN':
-          const temp2 = [];
-          temp2.push(list.fcstValue);
-          weatherObj.TMN = temp2[0];
+          if (list.fcstValue) {
+            weatherObj.TMN = list.fcstValue;
+          }
           break;
 
         case 'TMP':
-          const temp3 = [];
-          temp3.push(list.fcstValue);
-          weatherObj.TMP = temp3[0];
+          if (list.fcstValue) {
+            weatherObj.TMP = list.fcstValue;
+          }
           break;
 
         case 'SKY':
-          const temp4 = [];
-          temp4.push(list.fcstValue);
-          weatherObj.SKY = temp4[0];
+          if (list.fcstValue) {
+            weatherObj.SKY = list.fcstValue;
+          }
           break;
 
         case 'POP':
-          const temp5 = [];
-          temp5.push(list.fcstValue);
-          weatherObj.POP = temp5[0];
+          if (list.fcstValue) {
+            weatherObj.POP = list.fcstValue;
+          }
           break;
 
         case 'PTY':
-          const temp6 = [];
-          temp6.push(list.fcstValue);
-          weatherObj.PTY = temp6[0];
+          if (list.fcstValue) {
+            weatherObj.PTY = list.fcstValue;
+          }
           break;
       }
     }

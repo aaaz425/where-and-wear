@@ -1,6 +1,10 @@
 @import '../Base/color.scss';
 @import '../Base/mixin.scss';
 
+.outfit-recommend {
+  margin-left: 200px;
+}
+
 .outfit-recommendation {
   display: flex;
   gap: 20px;
@@ -59,14 +63,26 @@
       transform: translateY(10px);
       margin-bottom: 24px;
 
+      .focus {
+        background-color: $color-main;
+        color: $color-white;
+        border-radius: 50%;
+      }
+
       button {
         padding: 0;
+        width: 25px;
+        height: 25px;
         margin: 0 2px;
         border: 0;
         outline: 0;
         background-color: inherit;
         color: $color-gray;
         @include typo('boldSM');
+
+        &:hover {
+          cursor: pointer;
+        }
       }
     }
 

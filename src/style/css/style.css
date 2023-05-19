@@ -63,9 +63,8 @@
 }
 
 .main-place {
-  margin: 30px 85px 0px 85px;
+  margin: 30px 0px 0px 85px;
   display: flex;
-  justify-content: space-between;
 }
 
 .place-title {
@@ -165,6 +164,10 @@
 }
 
 /* color */
+.outfit-recommend {
+  margin-left: 200px;
+}
+
 .outfit-recommendation {
   display: flex;
   gap: 20px;
@@ -220,8 +223,15 @@
   transform: translateY(10px);
   margin-bottom: 24px;
 }
+.outfit-recommendation .outfit-info .outfit-btn_wrapper .focus {
+  background-color: #ff7a00;
+  color: #ffffff;
+  border-radius: 50%;
+}
 .outfit-recommendation .outfit-info .outfit-btn_wrapper button {
   padding: 0;
+  width: 25px;
+  height: 25px;
   margin: 0 2px;
   border: 0;
   outline: 0;
@@ -232,6 +242,9 @@
   font-weight: 700;
   line-height: auto;
   letter-spacing: 0;
+}
+.outfit-recommendation .outfit-info .outfit-btn_wrapper button:hover {
+  cursor: pointer;
 }
 .outfit-recommendation .outfit-info .outfit-detail div {
   margin-bottom: 19px;
